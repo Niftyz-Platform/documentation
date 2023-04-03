@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Intro to Niftyz.io
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **Niftyz in less than 5 minutes**.
 
 ## Getting Started
 
