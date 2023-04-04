@@ -30,7 +30,12 @@ The standard we use for our NFTs is the popular [ERC-1155](https://ethereum.org/
 
 - **Soulbound tokens**: We can issue tokens which cannot be transferred by the account who receives it (on-chain feature).
 - **Mint limits**: We can issue tokens which can be minted only by specific accounts (off-chain feature).
-- **Locked contents**: We can issue tokens with up to 3 locked contents (links or files), which can be unlocked only by one of the owners (mix of on-chain and on-chain feature).
+- **Locked contents**: We can issue tokens with up to 3 locked contents (links or files), which can be unlocked only by one of the owners (mix of on-chain and off-chain feature).
+- **Private metadata**: We can issue tokens with private metadata that will not show on Opensea or any other public marketplace (mix of on-chain ad off-chain feature).
+
+To create an NFT we have to different specific phases:
+- **Prepare NFT**: this will pre-create the on-chain metadata, will define all the informations about the features mentioned above etc. At blockchain level there will not be any NFT at the moment, just the information that a specific owner created the "blueprint" for that specific NFT and anyone enabled will be able to mint the NFT.
+- **Mint NFT**: this is the actual minting phase, where the NFT is minted and sent to anyone requested it. At blockchain level there will be the actual transaction and a copy of the NFT will be created.
 
 # Storage
 
