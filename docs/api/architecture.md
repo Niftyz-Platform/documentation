@@ -16,6 +16,10 @@ Since we'll refer to NFTs should be better if you already known some of the basi
 
 Access to our API is free, however if you have any question or special need you can send us a formal request through our form.
 
+# Interact with API
+
+Interaction with API is done mainly with `GET` and `POST` requests to our endpoints, all informations are passed using JSON objects (in case of `POST` requests).
+
 # Accounts
 
 Accounts in Niftyz are backed by wallets, this means that when you create an account on Niftyz you actually create an Ethereum wallet which will be used to publish and mint NFTs.
