@@ -8,7 +8,7 @@ As we mentioned in the [architecture](/docs/api/architecture) page we need to pr
 In order to successfully prepare the NFT you'll be required to send a payment through Stripe using provided `payment_intent`. 
 If you don't know how to setup a Payment Element we suggest to read the official [docs](https://stripe.com/docs/payments/payment-element).
 
-If you want to remove those limits and discuss with us a different use case please reach out using our form. 
+If you want to remove those limits and discuss with us a different use case please reach out using our [form](https://survey.niftyz.io/api). 
 
 # Create request
 
