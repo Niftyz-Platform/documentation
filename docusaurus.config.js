@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Niftyz Docs',
+  title: 'Niftyz.io',
   tagline: 'Create NFTs in minutes with Niftyz.',
   favicon: 'img/favicon.ico',
 
@@ -42,7 +42,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Niftyz-Platform/documentation',
+            'https://github.com/Niftyz-Platform/documentation/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -57,7 +57,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Niftyz Docs',
+        title: 'Niftyz.io Docs',
         logo: {
           alt: 'Niftyz Logo',
           src: 'img/logo.svg',
@@ -91,8 +91,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Intro',
                 to: '/docs/intro',
+              }, 
+              {
+                label: 'Platform',
+                to: '/docs/category/platform',
+              }, 
+              {
+                label: 'API',
+                to: '/docs/category/api',
               },
             ],
           },
@@ -100,21 +108,20 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Twitter',
+                href: 'https://twitter.com/Niftyz_io',
+              },
+              {
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/company/niftyz/',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://discord.gg/9sETeTZPSR',
               },
             ],
           },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Niftyz.io`,
+        ]
       },
       prism: {
         theme: lightCodeTheme,
