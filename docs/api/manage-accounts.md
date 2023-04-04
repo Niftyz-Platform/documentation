@@ -85,3 +85,17 @@ After you receives the token in your e-mail you can use it to actually export th
     "password": "<A_STRONG_PASSWORD>"
 }
 ```
+
+# Sign messages
+
+All the unlock features are done using the signing feature of the ethereum wallet. In order to use it you'll need to send a body like:
+
+```
+[POST] {{DATA_WALLET}}/transactions/sign
+
+{
+    "email": "dev@niftyz.io",
+    "password": "<A_STRONG_PASSWORD>",
+    "message": "<MESSAGE_NEEDED_TO_BE_SIGNED>"
+}
+```

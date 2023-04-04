@@ -14,7 +14,7 @@ Since we'll refer to NFTs should be better if you already known some of the basi
 
 # Get access to API
 
-Access to our API is free, however if you have any question or special need you can send us a formal request through our form.
+Access to our API is free, however if you have any question or special needs you can send us a formal request through our form (for example high volumes that requires a different deal with our platform).
 
 # Interact with API
 
