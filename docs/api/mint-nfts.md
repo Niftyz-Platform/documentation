@@ -37,6 +37,8 @@ To create a request you can use following JSON structure, but we have to explain
 
 The endpoint will return a `payment` attribute, if needed, otherwise it will be ready to be prepared. An `uuid` attribute will be returned too and it's mandatory to be saved somewhere in your system, because it's needed to proceed with preparing procedure.
 
+**Please note:** If you're an enterprise account you also must provide a `signature` that proves your request. Message needed to be signed is made by: `Request minting of NFT_TITLE`.
+
 # Check payment
 
 This endpoint it's needed to check the payment, if a payment is required to proceed. You can just call it after you or your customer ended with the Stripe procedure.

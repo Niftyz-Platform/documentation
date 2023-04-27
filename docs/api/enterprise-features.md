@@ -18,4 +18,4 @@ By creating an enterprise solution we also switch the smart contract, which can 
 
 # Simple accounting
 
-Mintings are not paid one by one, based on volume and usage we'll charge a monthly fee making the accounting simple as it should be for a business.
+Mintings are not paid one by one, based on volume and usage we'll charge a monthly fee making the accounting simple as it should be for a business. Currently default volume is locked to 5000 NFTs/mo. If you need higher limits please write down in your request.
