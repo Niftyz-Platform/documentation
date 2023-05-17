@@ -90,3 +90,6 @@ This endpoint can must be called to actually mint the NFT into an user's wallet.
     "receiver": "<RECEIVER_EMAIL>"
 }
 ```
+
+Enterprise specs
+If you're an enterprise account you also must provide a signature that proves your request. Message needed to be signed is made by: `"Request minting of METADATA_HASH to RECEIVER`.
