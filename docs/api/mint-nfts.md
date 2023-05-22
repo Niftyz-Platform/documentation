@@ -87,7 +87,7 @@ This endpoint can must be called to actually mint the NFT into an user's wallet.
 
 {
     "uuid": "<REQUEST_UUID>",
-    "receiver": "<RECEIVER_EMAIL>"
+    "receiver": "<RECEIVER_EMAIL_OR_ETH_ADDRESS>"
 }
 ```
 
