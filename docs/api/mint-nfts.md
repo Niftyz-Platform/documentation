@@ -71,7 +71,7 @@ This endpoint must be called to run the on-chain transaction, this will actually
 This endpoint can be called to share the NFT with anyone in the **allowlist**, if provided, or will provide the public link of the Niftyz platform linked to that asset.
 
 ```
-[POST] {{GATEWAY}}/open/prepare
+[POST] {{GATEWAY}}/open/share
 
 {
     "uuid": "<REQUEST_UUID>"
@@ -83,7 +83,7 @@ This endpoint can be called to share the NFT with anyone in the **allowlist**, i
 This endpoint can must be called to actually mint the NFT into an user's wallet.
 
 ```
-[POST] {{GATEWAY}}/open/prepare
+[POST] {{GATEWAY}}/open/mint
 
 {
     "uuid": "<REQUEST_UUID>",
@@ -91,5 +91,7 @@ This endpoint can must be called to actually mint the NFT into an user's wallet.
 }
 ```
 
-Enterprise specs
+
+### Enterprise specs
+
 If you're an enterprise account you also must provide a signature that proves your request. Message needed to be signed is made by: `"Request minting of METADATA_HASH to RECEIVER`.
